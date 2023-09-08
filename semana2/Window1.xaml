@@ -11,15 +11,17 @@
             <Menu DockPanel.Dock="Top">
                 <MenuItem Header="_Operaciones" Background="Cyan">
                     <MenuItem Header="_Ingresos"/>
-                    <MenuItem Header="_Salidas"/>
+                    <MenuItem Header="_Salidas" Click="Salidas_Click"/>
                 </MenuItem>
                 <MenuItem Header="_Mantenimiento" Background="Cyan">
-                    <MenuItem Header="_Conductores"/>
+                    <MenuItem Header="_Conductores" Click="Conductores_Click"/>
                     <MenuItem Header="_Transportistas"/>
-                    <MenuItem Header="_Camiones"/>
+                    <MenuItem Header="_Camiones" Click="Camiones_Click"/>
                     <MenuItem Header="_Productos"/>
                 </MenuItem>
-                <MenuItem Header="_Reportes" Background="Cyan">
+                <MenuItem Header="_Reportes" 
+                          Background="Cyan"
+                          >
                     <MenuItem Header="_Cargas"/>
                     <MenuItem Header="_Ingresos"/>
                     <MenuItem Header="_Salidas"/>

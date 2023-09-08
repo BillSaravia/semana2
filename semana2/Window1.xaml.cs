@@ -23,5 +23,23 @@ namespace semana2
         {
             InitializeComponent();
         }
+
+        private void Salidas_Click(object sender, RoutedEventArgs e)
+        {
+            salidas salida = new salidas();
+            salida.Show();
+        }
+
+        private void Camiones_Click(object sender, RoutedEventArgs e)
+        {
+            camiones camion = new camiones();
+            camion.Show();
+        }
+
+        private void Conductores_Click(object sender, RoutedEventArgs e)
+        {
+            conductores conductor = new conductores();
+            conductor.Show();
+        }
     }
 }
