@@ -70,7 +70,8 @@
                                         AlignmentX="Left"/>
                 </PasswordBox.Background>
             </PasswordBox>
-            <Button Height="30" 
+            <Button 
+                    Height="30" 
                     Width="200"
                     Content="Login"
                     Margin="0,8,0,0" 

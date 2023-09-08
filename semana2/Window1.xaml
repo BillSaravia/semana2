@@ -19,9 +19,7 @@
                     <MenuItem Header="_Camiones" Click="Camiones_Click"/>
                     <MenuItem Header="_Productos"/>
                 </MenuItem>
-                <MenuItem Header="_Reportes" 
-                          Background="Cyan"
-                          >
+                <MenuItem Header="_Reportes" Background="Cyan">
                     <MenuItem Header="_Cargas"/>
                     <MenuItem Header="_Ingresos"/>
                     <MenuItem Header="_Salidas"/>

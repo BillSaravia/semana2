@@ -28,10 +28,24 @@ namespace semana2
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Window1 window = new Window1();
-            this.Close();
-            window.Show();
+            string username = txtUser.Text;
+            string password = txtPass.Password;
+
+            if (username == "Bill" && password == "Bill")
+            {
+                Window1 window = new Window1();
+                this.Close();
+                window.Show();
+            }
+            else
+            {
+                MessageBox.Show("Sus credenciales son incorrectas");
+            }
+
+
+          
 
         }
+
     }
 }
