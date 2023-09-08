@@ -7,6 +7,25 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <Grid>
-        
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_Operaciones" Background="Cyan">
+                    <MenuItem Header="_Ingresos"/>
+                    <MenuItem Header="_Salidas"/>
+                </MenuItem>
+                <MenuItem Header="_Mantenimiento" Background="Cyan">
+                    <MenuItem Header="_Conductores"/>
+                    <MenuItem Header="_Transportistas"/>
+                    <MenuItem Header="_Camiones"/>
+                    <MenuItem Header="_Productos"/>
+                </MenuItem>
+                <MenuItem Header="_Reportes" Background="Cyan">
+                    <MenuItem Header="_Cargas"/>
+                    <MenuItem Header="_Ingresos"/>
+                    <MenuItem Header="_Salidas"/>
+
+                </MenuItem>
+            </Menu>
+        </DockPanel>
     </Grid>
 </Window>
